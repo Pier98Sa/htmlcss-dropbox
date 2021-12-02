@@ -11,3 +11,10 @@
     margin: 0 auto;
     height: 100%;
 }
+
+/*Regole Header*/
+
+header .row{
+    height: 100px;
+    background-color: blue;
+}
