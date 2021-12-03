@@ -34,6 +34,15 @@
 
 /*Regole Header*/
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+
 header .row{
     line-height: 80px;   
 }
@@ -69,6 +78,7 @@ header a.underline:hover{
     float: right;
     margin-right: 15px;
 }
+
 /*Jumbotron*/
 
 #jumbotron{
