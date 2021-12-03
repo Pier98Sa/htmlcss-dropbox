@@ -22,6 +22,7 @@
     padding: 8px 18px;
     text-decoration: none;
     color: #fff;
+    display: inline-block;
 }
 /*Debug*/
 .container {
@@ -50,6 +51,7 @@ header .row{
 header nav ul li{
     display: inline-block;
     padding: 0px 20px;
+    line-height: 78px;
 }
 header nav ul li a {
     text-decoration: none;
@@ -72,11 +74,10 @@ header .logo{
 }
 
 header a.underline:hover{
-    border-bottom: solid 2px #000;
+    border-bottom: solid 1px #000;
 }
-#login{
-    float: right;
-    margin-right: 15px;
+.btn.inizia{
+    display: inline;
 }
 
 /*Jumbotron*/
@@ -89,10 +90,11 @@ header a.underline:hover{
     margin: 0 auto;
     height: 100%;
     width: 82%;
+    max-width: 1320px;
 }
 
 #jumbotron h1{
-    margin-top: 75px;
+    margin-top: 105px;
     font-size: 4.5em;
 }
 #jumbotron p{
@@ -162,12 +164,25 @@ header a.underline:hover{
     background-color: gold;
 }
 
-.loghi-member{
-    width: 100vw;
-    height: 400px;
-    background-color: green;
+.member .col-sx{
+    float: left;
+    height: 30vw;
+    width: 30vw;
+    background-color: blueviolet;
 }
 
+.member .col-dx{
+    float: right;
+    height: 30vw;
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+.member .col-center{
+    float: left;
+    height: 30vw;
+    width: calc(100%-60vw);
+}
 /*section cta*/
 
 .cta{
