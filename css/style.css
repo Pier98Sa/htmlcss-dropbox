@@ -137,11 +137,17 @@ header a.underline:hover{
     background-color: red;
 }
 .titolo-business{
-    height: 150px;
-    background-color: yellow;
-    
+    height: 150px;  
+    background-color: #ff0;  
 }
 
+.titolo-business h2{
+    font-size: 2.8em;
+}
+.titolo-business p{
+    display: inline-block;
+    margin-left: 50px;
+}
 #business .colonna{
     float: left;
     height: 600px;
