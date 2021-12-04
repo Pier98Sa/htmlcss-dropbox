@@ -98,7 +98,8 @@ header a.underline:hover{
     font-size: 4.6em;
 }
 #jumbotron p{
-    margin-bottom: 35px;
+    padding-top: 60px;
+    margin-bottom: 20px;
     width: 75%;
 }
 
@@ -108,25 +109,25 @@ header a.underline:hover{
 
 #jumbotron a .fas{
     color: #000;
-    font-size: 40px;
-    
-}
-#jumbotron .under-btn{
-    margin-top: 10px;
+    font-size: 40px;   
 }
 
 #jumbotron .text-jumbotron{
     width: 40%;
     float: left;
     display: inline-block;
+    top: 20px;
 }
 #jumbotron .img-jumbotron{
-    width: 50%;
+    width: 60%;
     float: left;
     display: inline-block;
+    
 }
 .img-jumbotron img{
     width: 100%;
+    position: relative;
+    bottom: -60px;
 }
 /*Main*/
 
