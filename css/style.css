@@ -304,15 +304,19 @@ header a.underline:hover{
     
 }
 
+#member .text-col-center img{
+    width: 30%;
+}
 #member .col-center .text-sponsor p{
-    width: 100%;
+    width: 90%;
+    margin: 50px 0px;
+}
+
+#member .text-col-center{
+    padding: 50px;
 }
 /*regole generali svg di member*/
 
-#member .loghi-partner{
-    width: 100%;
-    
-}
 #member .item svg{
    object-fit: cover;
    width: 75%;
