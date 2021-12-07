@@ -24,6 +24,10 @@
     color: #fff;
     display: inline-block;
 }
+
+.underline .blue{
+    color:#176fff;
+}
 /*Debug
 .container {
     border: solid 1px #000;
@@ -93,7 +97,7 @@ header a.underline:hover{
 }
 
 #jumbotron h1{
-    margin-top: 105px;
+    margin-top: 80px;
     margin-bottom: 40px;
     font-size: 5.1em;
 }
@@ -137,6 +141,9 @@ header a.underline:hover{
     margin-top: 300px;
 }
 
+.text-colonna{
+    padding: 10px;
+}
 .titolo-business h2{
     font-size: 2.8em;
 }
@@ -147,11 +154,13 @@ header a.underline:hover{
     
 #business .colonna{
     float: left;
-    width: 31%;
-    margin:0px 1%;
+    width: 30%;
     border: solid 1px grey;
 }
 
+.colonna.centrale{
+    margin: 0px 5%;
+}
 .sez-orizzontale{
     width: 100%;
     margin-top: 20px;
@@ -220,7 +229,9 @@ header a.underline:hover{
 .titolo-member{
     margin-top: 50px;
 }
-
+.titolo-member a{
+    color: #176fff;
+}
 #member .col-sx{
     float: left;
     height: 30vw;
