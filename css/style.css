@@ -142,7 +142,8 @@ header a.underline:hover{
 }
 
 .text-colonna{
-    padding: 10px;
+    padding: 15px 10px;
+    text-align: left;
 }
 .titolo-business h2{
     font-size: 2.8em;
@@ -166,6 +167,10 @@ header a.underline:hover{
     margin-top: 20px;
     border: solid 1px grey;
 }
+
+.contenuto-orizzontale{
+    margin-top: 30px;
+}
 #business .titolo-colonna{
     text-align: center;
     border-bottom: solid 1px grey;
@@ -175,7 +180,24 @@ header a.underline:hover{
     padding: 10px 10px;
     
 }
+.text-cnt-orizzontale{
+    float: left;
+    margin-left: 30px;
+}
+.bottone{
+    float: right;
+    margin-right: 30px;
+}
+.text-cnt-orizzontale h4{
+    margin: 15px 0px;
+}
+.text-cnt-orizzontale p{
+    margin-bottom: 30px;
+}
 
+.btn.big{
+    padding: 8px 60px;
+}
 /*section Partner*/
 .partner{
     margin-top: 100px;
