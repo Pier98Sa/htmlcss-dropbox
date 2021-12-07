@@ -144,7 +144,6 @@ header a.underline:hover{
     display: inline-block;
     margin: 50px 0px 50px 50px;
 }
-
     
 #business .colonna{
     float: left;
@@ -170,9 +169,20 @@ header a.underline:hover{
 
 /*section Partner*/
 .partner{
-    height: 500px;
     margin-top: 100px;
-    background-color: aqua;
+}
+
+.partner .foto{
+    width: 55%;
+    float: left;
+}
+.foto img{
+    width: 100%;
+}
+
+.partner .text-partner{
+    width: 35%;
+    float: right;
 }
 
 /*section strumenti*/
