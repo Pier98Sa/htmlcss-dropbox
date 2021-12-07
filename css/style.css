@@ -315,6 +315,7 @@ header a.underline:hover{
 }
 #member .item svg{
    object-fit: cover;
+   width: 75%;
 }
 #member .item svg path{
     fill:#fff
@@ -342,9 +343,26 @@ header a.underline:hover{
     border-color: #ff1c1c;
 }
 
-
-
-
+/*primo quadrato di dx*/
+#member .item.darkred{
+    background-color:#d5001f;
+    border-color: #d5001f;
+}
+/*secondo quadrato di dx*/
+#member .item.lightblue{
+    background-color: #b4d0e7;
+    border-color: #b4d0e7;
+}
+/*terzo quadrato di dx*/
+#member .item.blue{
+    background-color: #0d2481;
+    border-color: #0d2481;
+}
+/*quarto quadrato di sx*/
+#member .item.yellow{
+    background-color: #ffd830;
+    border-color: #ffd830;
+}
 /*section cta*/
 
 .cta{
