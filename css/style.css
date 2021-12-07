@@ -356,7 +356,31 @@ header a.underline:hover{
 /*footer*/
 
 footer{
-    height: 600px;
+    height: 500px;
     margin-top: 70px;
     background-color: #000;
+}
+
+footer .colonna-footer{
+    width: 18%;
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+}
+.colonna-footer h3{
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.colonna-footer li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.colonna-footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-row{
+    color: #585858;
 }
