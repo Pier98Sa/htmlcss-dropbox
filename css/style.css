@@ -24,13 +24,13 @@
     color: #fff;
     display: inline-block;
 }
-/*Debug*/
+/*Debug
 .container {
     border: solid 1px #000;
 }
 .container-grande{
     border: solid 1px #ff0;
-}
+}*/
 
 
 /*Regole Header*/
@@ -84,23 +84,26 @@ header a.underline:hover{
 
 #jumbotron{
     background-color: #b4d0e7;
+    height: 728px;
 }
 .container-grande{
     margin: 0 auto;
-    height: 100%;
-    width: 90%;
-    max-width: 1320px;
+    width: 95%;
+    max-width: 1480px;
 }
 
 #jumbotron h1{
     margin-top: 105px;
     margin-bottom: 40px;
-    font-size: 4.6em;
+    font-size: 5.1em;
 }
 #jumbotron p{
-    padding-top: 60px;
     margin-bottom: 20px;
-    width: 75%;
+    width: 77%;
+}
+
+#jumbotron  p.under-btn{
+    padding-top: 10px;
 }
 
 #jumbotron a{
@@ -109,25 +112,23 @@ header a.underline:hover{
 
 #jumbotron a .fas{
     color: #000;
-    font-size: 40px;   
+    font-size: 40px;  
+    padding-top: 30px; 
 }
 
 #jumbotron .text-jumbotron{
-    width: 40%;
+    width: 35%;
     float: left;
     display: inline-block;
-    top: 20px;
 }
 #jumbotron .img-jumbotron{
-    width: 60%;
+    width: 65%;
     float: left;
     display: inline-block;
     
 }
 .img-jumbotron img{
     width: 100%;
-    position: relative;
-    bottom: -60px;
 }
 /*Main*/
 
