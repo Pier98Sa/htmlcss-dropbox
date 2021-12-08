@@ -165,7 +165,27 @@ header a.underline:hover{
     display: inline-block;
     margin: 50px 0px 50px 50px;
 }  
+/*pallino*/
 
+.cerchio-blu{
+    width: 20px;
+    height: 20px;
+    border: solid 5px #2175ff;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.cerchio{
+    width: 20px;
+    height: 20px;
+    border: solid 2px #d9d9db;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
 /*sezione colonna regole generali*/
 #business .colonna{
     float: left;
