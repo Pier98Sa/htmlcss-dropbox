@@ -536,6 +536,30 @@ nav ul ul li a:hover{
     float: right;
     text-align: right;
 }
+/*effetto di hover*/
+
+.question-row .question p{
+    display: none;
+    margin: 15px 0px;
+}
+
+.question-row .question:hover  p{
+    display: inherit;
+}
+.fas.fa-chevron-down{
+    display: block;
+}
+
+.fas.fa-chevron-up{
+    display: none;
+}
+
+.question-row:hover  .fas.fa-chevron-down{
+    display: none;
+}
+.question-row:hover  .fas.fa-chevron-up{
+    display: block;
+}
 /*footer*/
 
 footer{
@@ -578,14 +602,4 @@ footer .fas.fa-sort-up{
 
 footer a:hover{
     text-decoration: underline;
-}
-
-/*bonus*/
-
-.question-row .question p{
-    display: none;
-}
-
-.question-row .question:hover > p{
-    display: inherit;
 }
