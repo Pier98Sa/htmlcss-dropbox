@@ -354,6 +354,7 @@ header a.underline:hover{
     float: left;
     height: 30vw;
     width: calc(100% - 60vw);
+    overflow: auto;
 }
 
 #member .col-sx .item{
@@ -403,6 +404,10 @@ header a.underline:hover{
 
 #member .text-col-center{
     padding: 50px;
+}
+
+#member .text-sponsor{
+    overflow: auto;
 }
 /*regole generali svg di member*/
 
