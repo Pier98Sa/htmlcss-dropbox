@@ -536,6 +536,11 @@ nav ul ul li a:hover{
     float: right;
     text-align: right;
 }
+
+.faq h2{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
 /*effetto di hover*/
 
 .question-row .question p{
