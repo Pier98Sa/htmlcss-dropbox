@@ -505,10 +505,18 @@ header a.underline:hover{
     float: right;
     text-align: right;
 }
+.faq h2{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.question-row .question p{
+    margin: 15px 0px;
+}
 /*footer*/
 
 footer{
-    margin-top: 70px;
+    margin-top: 100px;
     background-color: #000;
 }
 
