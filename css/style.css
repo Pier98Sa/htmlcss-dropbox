@@ -391,12 +391,12 @@ header a.underline:hover{
 
 #member .item svg{
    object-fit: cover;
-   width: 75%;
+   width: 50%;
+   vertical-align: middle;
 }
-#member .item svg path{
+/*#member .item svg path{
     fill:#fff
-
-}
+}*/
 
 /*primo quadrato di sx*/
 #member .item.verde{
