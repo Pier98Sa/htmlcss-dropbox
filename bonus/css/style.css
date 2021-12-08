@@ -1,0 +1,550 @@
+/*regole comuni*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.clearfix{
+    clear: both;    
+}
+
+.btn{
+    background-color: #0061ff;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+/*effetto di hover dei btn*/
+.btn:hover{
+    background-color: #297afe;
+}
+.btn.white:hover{
+    box-shadow: 2px 5px 5px #585858;
+}
+.underline.blue{
+    color: #0464ff;
+    text-decoration: underline;
+}
+
+.linea{
+    border-bottom: solid 1px;
+    width: 100%;
+    margin: 20px 0px;
+}
+.linea.piccola{
+    color: grey;
+    width: 15%;
+    margin-left: 14px;
+}
+/*Debug
+.container {
+    border: solid 1px #000;
+}
+.container-grande{
+    border: solid 1px #ff0;
+}*/
+
+
+/*Regole Header*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+
+header .row{
+    line-height: 80px;   
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    line-height: 78px;
+}
+header nav ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #000;
+    display: inline-block;
+}
+header nav .menu.sx{
+    float: left;
+}
+
+header nav .menu.dx{
+    float:right;
+}
+
+header .logo{
+    height: 72px;
+    vertical-align: middle;
+}
+
+header a.underline:hover{
+    border-bottom: solid 1px #000;
+}
+.btn.inizia{
+    display: inline;
+}
+
+/*Jumbotron*/
+
+#jumbotron{
+    background-color: #b4d0e7;
+    height: 728px;
+}
+.container-grande{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1480px;
+}
+
+#jumbotron h1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 5.1em;
+}
+#jumbotron p{
+    margin-bottom: 20px;
+    width: 77%;
+}
+
+#jumbotron  p.under-btn{
+    padding-top: 10px;
+}
+
+#jumbotron a{
+    text-decoration: none;
+}
+
+#jumbotron a .fas{
+    color: #000;
+    font-size: 40px;  
+    padding-top: 30px; 
+}
+
+#jumbotron .text-jumbotron{
+    width: 35%;
+    float: left;
+    display: inline-block;
+}
+#jumbotron .img-jumbotron{
+    width: 65%;
+    float: left;
+    display: inline-block;
+    
+}
+.img-jumbotron img{
+    width: 100%;
+}
+/*Main*/
+
+/*Section "Piani Business"*/
+#business{
+    margin-top: 300px;
+}
+/*sezione titolo*/
+.titolo-business h2{
+    font-size: 2.8em;
+}
+.titolo-business p{
+    display: inline-block;
+    margin: 50px 0px 50px 50px;
+}  
+
+/*sezione colonna regole generali*/
+#business .colonna{
+    float: left;
+    width: 30%;
+    border: solid 1px grey;
+    
+}
+.text-colonna{
+    padding: 15px 10px;
+}
+.colonna.centrale{
+    margin: 0px 5%;
+}
+/*titolo della colonna*/
+#business .titolo-colonna{
+    text-align: center;
+    border-bottom: solid 1px grey;
+}
+#business .titolo-colonna p{
+    padding: 10px 0px;
+}
+#business .text-colonna h3{
+    font-size: 1.7em;
+}
+/*sezione plan della colonna parte alta*/
+.plan-name{
+    padding: 30px 15px;
+}
+.plan-name .costo{
+    padding: 10px 0px;
+}
+/*lista della colonna*/
+#business ul li {
+    list-style: none;
+    padding: 15px 0px;
+    
+}
+#business .btn.business{
+    padding: 8px 62px;
+    margin: 40px 10px;
+}
+
+#business .prova-gratis span, .piano h4{
+    margin-left: 10px;
+}
+.fas.fa-check{
+    color: #0464ff;
+}
+
+.piano{
+    margin-bottom: 100px;
+}
+.colonna.bassa .piano{
+    margin-bottom:151.72px;
+}
+/*sezione orizzontale*/
+.sez-orizzontale{
+    width: 100%;
+    margin-top: 20px;
+    border: solid 1px grey;
+}
+
+.contenuto-orizzontale{
+    margin-top: 30px;
+}
+
+.text-cnt-orizzontale{
+    float: left;
+    margin-left: 30px;
+}
+.bottone{
+    float: right;
+    margin-right: 30px;
+}
+.btn.big{
+    padding: 8px 60px;
+}
+
+.text-cnt-orizzontale h3{
+    font-size: 1.7em;
+}
+.text-cnt-orizzontale h4{
+    margin: 15px 0px;
+}
+.text-cnt-orizzontale p{
+    margin-bottom: 30px;
+}
+
+/*section Partner*/
+.partner{
+    margin-top: 100px;
+}
+
+.partner .foto{
+    width: 55%;
+    float: left;
+}
+.foto img{
+    width: 100%;
+}
+
+.partner .text-partner{
+    width: 40%;
+    float: right;
+}
+
+.partner .text-partner h3{
+    font-size: 1.8em;
+    margin: 30px 0px;
+}
+
+.partner .text-partner p{
+    font-size: 1.1em;
+    margin: 25px 0px;
+}
+
+.partner .text-partner .btn.white{
+    background-color: #fff;
+    color: #000;
+    border: solid 1.5px #000;
+}
+
+/*section strumenti*/
+.strumenti .underline{
+    text-decoration: underline;
+}
+.strumenti{
+    margin-top: 50px;
+}
+
+.riga .card{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    padding: 50px 20px;
+
+}
+ .strumenti .riga.titolo{
+     padding: 0px 20px;
+     font-size: 1.8em;
+ }
+.riga .card img{
+    width: 100%;
+}
+
+.riga .card h3{
+    margin: 20px 0px;
+    font-size: 1.7em;
+}
+.riga .card p{
+    font-size: 1.1em;
+}
+/*section member*/
+
+.titolo-member{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.titolo-member h2{
+    font-size: 2.5em;
+    width: 50%;
+    margin-bottom: 35px;
+}
+
+.titolo-member a{
+    margin-bottom: 35px;
+}
+.titolo-member a{
+    color: #176fff;
+}
+#member .col-sx{
+    float: left;
+    height: 30vw;
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+#member .col-dx{
+    float: right;
+    height: 30vw;
+    width: 30vw;
+    background-color: blueviolet;
+}
+
+#member .col-center{
+    float: left;
+    height: 30vw;
+    width: calc(100% - 60vw);
+}
+
+#member .col-sx .item{
+    float: left;
+    height:15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+    border: solid 5px;
+    position: relative;
+}
+
+#member .col-dx .item{
+    float: left;
+    height:15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+    border: solid 5px;
+    position: relative;
+}
+
+.image-member{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#member .item svg{
+   object-fit: cover;
+   width: 100%;
+   vertical-align: middle;   
+}
+
+#member .item img{
+    object-fit: cover;
+    width: 100%;   
+ }
+#member .text-col-center img{
+    width: 30%;
+}
+#member .col-center .text-sponsor p{
+    width: 90%;
+    margin: 50px 0px;
+}
+
+#member .text-col-center{
+    padding: 50px;
+}
+/*regole generali svg di member*/
+
+
+/*#member .item svg path{
+    fill:#fff
+}*/
+
+
+/*primo quadrato di sx*/
+#member .item.verde{
+    background-color: #a2d39b;
+    border-color: #d0e9cd;
+}
+/*secondo quadrato di sx*/
+#member .item.grenada{
+    background-color: #61082b;
+    border-color: #61082b;
+}
+/*terzo quadrato di sx*/
+#member .item.cyan{
+    background-color: #0093ce;
+    border-color: #0093ce;
+}
+/*quarto quadrato di sx*/
+#member .item.red{
+    background-color: #ff1c1c;
+    border-color: #ff1c1c;
+}
+
+/*primo quadrato di dx*/
+#member .item.darkred{
+    background-color:#d5001f;
+    border-color: #d5001f;
+}
+/*secondo quadrato di dx*/
+#member .item.lightblue{
+    background-color: #b4d0e7;
+    border-color: #b4d0e7;
+}
+/*terzo quadrato di dx*/
+#member .item.blue{
+    background-color: #0d2481;
+    border-color: #0d2481;
+}
+/*quarto quadrato di sx*/
+#member .item.yellow{
+    background-color: #ffd830;
+    border-color: #ffd830;
+}
+/*section cta*/
+
+.cta{
+    background-color: #b4d0e7; 
+    height: 350px; 
+}
+
+.cta .text-cta{
+    width: 70%;
+    float: left;
+    font-size: 2em;
+    color:#61082b;
+}
+
+.cta .text-cta h2{
+    width: 70%;
+}
+
+.cta .btn-cta{
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+}
+
+.cta .btn.cta.white{
+    display: inline;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 50px;
+    width: 100%;
+}
+
+.banner.container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*section faq*/
+
+.faq{
+    margin-top: 50px;
+}
+
+.faq .question{
+    width: 90%;
+    float: left;
+}
+
+.faq .arrows{
+    width: 10%;
+    float: right;
+    text-align: right;
+}
+/*footer*/
+
+footer{
+    margin-top: 70px;
+    background-color: #000;
+}
+
+footer .colonna-footer{
+    width: 20%;
+    float: left;
+    color: #fff;
+    margin-top: 50px;
+}
+.colonna-footer h3{
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.colonna-footer li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.colonna-footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-row p{
+    color: #585858;
+    padding: 30px 0px;
+}
+footer .fas.fa-sort-up{
+    vertical-align: sub;
+}
+.linea.footer{
+    margin-top: 75px;
+    width: 10%;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
