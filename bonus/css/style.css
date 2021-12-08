@@ -191,7 +191,7 @@ nav ul ul li a:hover{
     display: inline-block;
     margin: 50px 0px 50px 50px;
 }
-  
+
 /*pallino*/
 
 .cerchio-blu{
@@ -569,7 +569,7 @@ nav ul ul li a:hover{
     margin: 15px 0px;
 }
 
-.question-row .question:hover  p{
+.question-row :hover p{
     display: inherit;
 }
 .fas.fa-chevron-down{
