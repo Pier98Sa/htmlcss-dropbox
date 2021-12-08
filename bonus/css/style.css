@@ -100,7 +100,33 @@ header a.underline:hover{
 .btn.inizia{
     display: inline;
 }
+/*header menù a tendina */
 
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 80px; 
+    right: 395px;
+    background-color: #fff;
+    border: solid 1px #fff;
+}
+	
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+
+nav ul ul li {
+	width:250px;
+	float:none;
+	display:list-item;
+	position: relative;
+    list-style: none;
+}
+nav ul ul li a:hover{
+    text-decoration: underline;
+}
 /*Jumbotron*/
 
 #jumbotron{
@@ -554,31 +580,12 @@ footer a:hover{
     text-decoration: underline;
 }
 
-/*BONUS*/
-/*header menù a tendina */
+/*bonus*/
 
-nav ul ul {
-	display: none;
-	position: absolute; 
-	top: 80px; 
-    right: 395px;
-    background-color: #fff;
-    border: solid 1px #fff;
+.question-row .question p{
+    display: none;
 }
-	
 
-nav ul li:hover > ul {
-	display:inherit;
-}
-	
-
-nav ul ul li {
-	width:250px;
-	float:none;
-	display:list-item;
-	position: relative;
-    list-style: none;
-}
-nav ul ul li a:hover{
-    text-decoration: underline;
+.question-row .question:hover > p{
+    display: inherit;
 }
