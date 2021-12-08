@@ -383,9 +383,16 @@ header a.underline:hover{
     transform: translate(-50%, -50%);
 }
 
-.image-member img{
-    width: 100%;
+#member .item svg{
+   object-fit: cover;
+   width: 100%;
+   vertical-align: middle;   
 }
+
+#member .item img{
+    object-fit: cover;
+    width: 100%;   
+ }
 #member .text-col-center img{
     width: 30%;
 }
@@ -399,12 +406,7 @@ header a.underline:hover{
 }
 /*regole generali svg di member*/
 
-/*#member .item svg{
-   object-fit: cover;
-   width: 50%;
-   vertical-align: middle;
-   
-}*/
+
 /*#member .item svg path{
     fill:#fff
 }*/
