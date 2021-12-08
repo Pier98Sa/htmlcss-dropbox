@@ -24,18 +24,25 @@
     color: #fff;
     display: inline-block;
 }
-
+/*effetto di hover dei btn*/
+.btn:hover{
+    background-color: #297afe;
+}
+.btn.white:hover{
+    box-shadow: 2px 5px 5px #585858;
+}
 .underline.blue{
     color: #0464ff;
     text-decoration: underline;
 }
 
 .linea{
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px;
     width: 100%;
     margin: 20px 0px;
 }
 .linea.piccola{
+    color: grey;
     width: 15%;
     margin-left: 14px;
 }
@@ -164,6 +171,7 @@ header a.underline:hover{
     float: left;
     width: 30%;
     border: solid 1px grey;
+    
 }
 .text-colonna{
     padding: 15px 10px;
@@ -179,7 +187,9 @@ header a.underline:hover{
 #business .titolo-colonna p{
     padding: 10px 0px;
 }
-
+#business .text-colonna h3{
+    font-size: 1.7em;
+}
 /*sezione plan della colonna parte alta*/
 .plan-name{
     padding: 30px 15px;
@@ -195,10 +205,21 @@ header a.underline:hover{
 }
 #business .btn.business{
     padding: 8px 62px;
+    margin: 40px 10px;
 }
 
+#business .prova-gratis span, .piano h4{
+    margin-left: 10px;
+}
 .fas.fa-check{
     color: #0464ff;
+}
+
+.piano{
+    margin-bottom: 100px;
+}
+.colonna.bassa .piano{
+    margin-bottom:151.72px;
 }
 /*sezione orizzontale*/
 .sez-orizzontale{
@@ -222,6 +243,10 @@ header a.underline:hover{
 .btn.big{
     padding: 8px 60px;
 }
+
+.text-cnt-orizzontale h3{
+    font-size: 1.7em;
+}
 .text-cnt-orizzontale h4{
     margin: 15px 0px;
 }
@@ -243,8 +268,24 @@ header a.underline:hover{
 }
 
 .partner .text-partner{
-    width: 35%;
+    width: 40%;
     float: right;
+}
+
+.partner .text-partner h3{
+    font-size: 1.8em;
+    margin: 30px 0px;
+}
+
+.partner .text-partner p{
+    font-size: 1.1em;
+    margin: 25px 0px;
+}
+
+.partner .text-partner .btn.white{
+    background-color: #fff;
+    color: #000;
+    border: solid 1.5px #000;
 }
 
 /*section strumenti*/
@@ -281,6 +322,16 @@ header a.underline:hover{
 
 .titolo-member{
     margin-top: 50px;
+    margin-bottom:50px;
+}
+.titolo-member h2{
+    font-size: 2.5em;
+    width: 50%;
+    margin-bottom: 35px;
+}
+
+.titolo-member a{
+    margin-bottom: 35px;
 }
 .titolo-member a{
     color: #176fff;
@@ -417,6 +468,7 @@ header a.underline:hover{
     background-color: #fff;
     color: #000;
     padding: 8px 50px;
+    width: 100%;
 }
 
 .banner.container{
@@ -442,13 +494,12 @@ header a.underline:hover{
 /*footer*/
 
 footer{
-    height: 500px;
     margin-top: 70px;
     background-color: #000;
 }
 
 footer .colonna-footer{
-    width: 18%;
+    width: 20%;
     float: left;
     color: #fff;
     margin-top: 50px;
@@ -467,6 +518,19 @@ footer .colonna-footer{
     color: #fff;
 }
 
-.footer-row{
+.footer-row p{
     color: #585858;
+    padding: 30px 0px;
+}
+footer .fas.fa-sort-up{
+    vertical-align: sub;
+}
+.linea.footer{
+    margin-top: 75px;
+    width: 10%;
+    color: #fff;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
