@@ -284,6 +284,9 @@ header li.underline:hover{
 .plan-name .costo{
     padding: 10px 0px;
 }
+.plan-name .cadenza{
+    color: #585858;
+}
 /*lista della colonna*/
 #business ul li {
     list-style: none;
