@@ -24,12 +24,19 @@
     color: #fff;
     display: inline-block;
 }
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 /*effetto di hover dei btn*/
 .btn:hover{
     background-color: #297afe;
 }
-.btn.white:hover{
-    box-shadow: 2px 5px 5px #585858;
+.btn-white:hover{
+    background-color: #f5f5f5;
 }
 .underline.blue{
     color: #0464ff;
@@ -328,12 +335,9 @@ nav ul ul li a:hover{
     margin: 25px 0px;
 }
 
-.partner .text-partner .btn.white{
-    background-color: #fff;
-    color: #000;
+.btn-white.partner{
     border: solid 1.5px #000;
 }
-
 /*section strumenti*/
 .strumenti .underline{
     text-decoration: underline;
@@ -385,15 +389,13 @@ nav ul ul li a:hover{
 #member .col-sx{
     float: left;
     height: 30vw;
-    width: 30vw;
-    background-color: blueviolet;
+    width: 30vw;   
 }
 
 #member .col-dx{
     float: right;
     height: 30vw;
     width: 30vw;
-    background-color: blueviolet;
 }
 
 #member .col-center{
@@ -431,8 +433,6 @@ nav ul ul li a:hover{
     transform: translate(-50%, -50%);
 }
 
-
-
 #member .item img{
     filter:invert();
     object-fit: cover;
@@ -454,12 +454,6 @@ nav ul ul li a:hover{
 #member .text-sponsor{
     overflow: auto;
 }
-/*regole generali svg di member*/
-
-
-/*#member .item svg path{
-    fill:#fff
-}*/
 
 
 /*primo quadrato di sx*/
@@ -505,34 +499,31 @@ nav ul ul li a:hover{
 }
 /*section cta*/
 
-.cta{
+.banner-cta{
     background-color: #b4d0e7; 
     height: 350px; 
 }
 
-.cta .text-cta{
+.banner-cta .text-cta{
     width: 70%;
     float: left;
     font-size: 2em;
     color:#61082b;
 }
 
-.cta .text-cta h2{
+.banner-cta .text-cta h2{
     width: 70%;
 }
 
-.cta .btn-cta{
+.banner-cta .bottone-cta{
     width: 30%;
     float: right;
     margin-top: 10px;
 }
 
-.cta .btn.cta.white{
+.banner-cta .btn-white.cta{
     display: inline;
-    background-color: #fff;
-    color: #000;
-    padding: 8px 50px;
-    width: 100%;
+    padding: 8px 50px;   
 }
 
 .banner.container{
@@ -560,6 +551,7 @@ nav ul ul li a:hover{
     font-size: 2em;
     margin-bottom: 50px;
 }
+
 /*effetto di hover*/
 
 .question-row .question p{
@@ -584,6 +576,7 @@ nav ul ul li a:hover{
 .question-row:hover  .fas.fa-chevron-up{
     display: block;
 }
+
 /*footer*/
 
 footer{
@@ -628,24 +621,4 @@ footer a:hover{
     text-decoration: underline;
 }
 
-/*pallino*/
 
-.cerchio-blu{
-    width: 20px;
-    height: 20px;
-    border: solid 5px #2175ff;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 2px;
-}
-
-.cerchio{
-    width: 20px;
-    height: 20px;
-    border: solid 2px #d9d9db;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 2px;
-}

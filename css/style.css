@@ -24,12 +24,18 @@
     color: #fff;
     display: inline-block;
 }
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 /*effetto di hover dei btn*/
 .btn:hover{
     background-color: #297afe;
 }
-.btn.white:hover{
-    box-shadow: 2px 5px 5px #585858;
+.btn-white:hover{
+    background-color: #f5f5f5;
 }
 .underline.blue{
     color: #0464ff;
@@ -94,7 +100,7 @@ header .logo{
     vertical-align: middle;
 }
 
-header a.underline:hover{
+header li.underline:hover{
     border-bottom: solid 1px #000;
 }
 .btn.inizia{
@@ -237,7 +243,6 @@ header a.underline:hover{
 .fas.fa-check{
     color: #0464ff;
 }
-
 /*sezione orizzontale*/
 .sez-orizzontale{
     width: 100%;
@@ -299,9 +304,7 @@ header a.underline:hover{
     margin: 25px 0px;
 }
 
-.partner .text-partner .btn.white{
-    background-color: #fff;
-    color: #000;
+.btn.white.partner{
     border: solid 1.5px #000;
 }
 
@@ -356,21 +359,21 @@ header a.underline:hover{
 #member .col-sx{
     float: left;
     height: 30vw;
-    width: 30vw;
-    background-color: blueviolet;
+    width: 30vw;  
 }
 
 #member .col-dx{
     float: right;
     height: 30vw;
     width: 30vw;
-    background-color: blueviolet;
 }
 
 #member .col-center{
     float: left;
     height: 30vw;
     width: calc(100% - 60vw);
+    overflow: auto;
+    background-color: #f5f5f5;
 }
 
 #member .col-sx .item{
@@ -400,17 +403,13 @@ header a.underline:hover{
     transform: translate(-50%, -50%);
 }
 
-#member .item svg{
+#member .item img{
+    filter: invert();
    object-fit: cover;
    width: 100%;
    vertical-align: middle;   
 }
 
-#member .item img{
-    object-fit: cover;
-    width: 100%; 
-    vertical-align: middle;  
- }
 #member .text-col-center img{
     width: 30%;
 }
@@ -422,12 +421,7 @@ header a.underline:hover{
 #member .text-col-center{
     padding: 50px;
 }
-/*regole generali svg di member*/
 
-
-/*#member .item svg path{
-    fill:#fff
-}*/
 
 
 /*primo quadrato di sx*/
@@ -473,34 +467,31 @@ header a.underline:hover{
 }
 /*section cta*/
 
-.cta{
+.banner-cta{
     background-color: #b4d0e7; 
     height: 350px; 
 }
 
-.cta .text-cta{
+.banner-cta .text-cta{
     width: 70%;
     float: left;
     font-size: 2em;
     color:#61082b;
 }
 
-.cta .text-cta h2{
+.banner-cta .text-cta h2{
     width: 70%;
 }
 
-.cta .btn-cta{
+.banner-cta .btn-cta{
     width: 30%;
     float: right;
     margin-top: 10px;
 }
 
-.cta .btn.cta.white{
+.banner-cta .btn-white.cta{
     display: inline;
-    background-color: #fff;
-    color: #000;
     padding: 8px 50px;
-    width: 100%;
 }
 
 .banner.container{
