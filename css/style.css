@@ -14,7 +14,6 @@ html{
     width: 80%;
     max-width: 1180px;
     margin: 0 auto;
-    height: 100%;
 }
 
 .clearfix{
@@ -404,8 +403,8 @@ header li.underline:hover{
 /*regole di flottaggio degli item*/
 #member .col-sx .item{
     float: left;
-    height:15vw;
-    width: 15vw;
+    height:50%;
+    width: 50%;
     text-align: center;
     line-height: 15vw;
     border: solid 5px;
@@ -414,8 +413,8 @@ header li.underline:hover{
 
 #member .col-dx .item{
     float: left;
-    height:15vw;
-    width: 15vw;
+    height:50%;
+    width: 50%;
     text-align: center;
     line-height: 15vw;
     border: solid 5px;
@@ -497,11 +496,7 @@ header li.underline:hover{
 /*section cta*/
 
 .banner-cta{
-    background-color: #b4d0e7; 
-    height: 350px; 
-}
-
-.banner.container{
+    background-color: #b4d0e7;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -536,7 +531,7 @@ header li.underline:hover{
 /*section faq*/
 
 .faq{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 /*regole di flottaggio della faq*/
