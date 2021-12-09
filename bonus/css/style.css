@@ -15,10 +15,58 @@ html{
     max-width: 1180px;
     margin: 0 auto;
 }
+ /*clearfix*/
+ header .row::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
 
-.clearfix{
-    clear: both;    
-}
+ #jumbotron .container-grande::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ #business .abbonamenti::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .sez-orizzontale .contenuto-orizzontale::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .partner::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ #member::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+ .banner-cta .banner::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+ .faq .question-row:after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+ footer .container-grande::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
 
 /*regole dei bottoni*/
 .btn{
