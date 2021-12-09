@@ -440,6 +440,7 @@ nav ul ul li a:hover{
 #member .item img{
     object-fit: cover;
     width: 100%;   
+    vertical-align: middle;
  }
 #member .text-col-center img{
     width: 30%;
