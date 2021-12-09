@@ -226,6 +226,9 @@ nav ul ul li a:hover{
 .colonna.centrale{
     margin: 0px 5%;
 }
+.colonna{
+    min-height: 1100px;
+}
 /*titolo della colonna*/
 #business .titolo-colonna{
     text-align: center;
@@ -237,9 +240,7 @@ nav ul ul li a:hover{
 #business .text-colonna h3{
     font-size: 1.7em;
 }
-.colonna{
-    min-height: 1100px;
-}
+
 /*sezione plan della colonna parte alta*/
 .plan-name{
     padding: 30px 15px;

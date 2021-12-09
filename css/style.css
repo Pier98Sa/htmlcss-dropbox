@@ -199,6 +199,9 @@ header a.underline:hover{
 .colonna.centrale{
     margin: 0px 5%;
 }
+.colonna{
+    min-height: 1100px;
+}
 /*titolo della colonna*/
 #business .titolo-colonna{
     text-align: center;
@@ -235,12 +238,6 @@ header a.underline:hover{
     color: #0464ff;
 }
 
-.piano{
-    margin-bottom: 100px;
-}
-.colonna.bassa .piano{
-    margin-bottom:151.72px;
-}
 /*sezione orizzontale*/
 .sez-orizzontale{
     width: 100%;
