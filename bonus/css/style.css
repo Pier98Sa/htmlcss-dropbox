@@ -413,7 +413,7 @@ nav ul ul li a:hover{
 }
 
 /*regole di flottaggio delle colonne*/
-#member .col-sx{
+#member .col{
     float: left;
     height: 30vw;
     width: 30vw;   
@@ -421,8 +421,6 @@ nav ul ul li a:hover{
 
 #member .col-dx{
     float: right;
-    height: 30vw;
-    width: 30vw;
 }
 
 #member .col-center{
@@ -435,7 +433,7 @@ nav ul ul li a:hover{
 
 /*regole di flottaggio degli item*/
 
-#member .col-sx .item{
+#member .col .item{
     float: left;
     height: 50%;
     width: 50%;
@@ -445,15 +443,7 @@ nav ul ul li a:hover{
     position: relative;
 }
 
-#member .col-dx .item{
-    float: left;
-    height:50%;
-    width: 50%;
-    text-align: center;
-    line-height: 15vw;
-    border: solid 5px;
-    position: relative;
-}
+
 
 /*contenuti delle colonne*/
 .image-member{

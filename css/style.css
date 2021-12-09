@@ -380,16 +380,15 @@ header li.underline:hover{
 }
 
 /*regole di flottaggio delle colonne*/
-#member .col-sx{
+#member .col{
     float: left;
     height: 30vw;
     width: 30vw;  
 }
 
-#member .col-dx{
+#member .col.dx{
     float: right;
-    height: 30vw;
-    width: 30vw;
+    
 }
 
 #member .col-center{
@@ -401,7 +400,7 @@ header li.underline:hover{
 }
 
 /*regole di flottaggio degli item*/
-#member .col-sx .item{
+#member .col .item{
     float: left;
     height:50%;
     width: 50%;
@@ -411,15 +410,6 @@ header li.underline:hover{
     position: relative;
 }
 
-#member .col-dx .item{
-    float: left;
-    height:50%;
-    width: 50%;
-    text-align: center;
-    line-height: 15vw;
-    border: solid 5px;
-    position: relative;
-}
 
 /*contenuti delle colonne*/
 .image-member{
