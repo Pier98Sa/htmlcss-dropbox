@@ -24,17 +24,15 @@
     color: #fff;
     display: inline-block;
 }
-.btn-white{
+.btn.white{
     background-color: #fff;
     color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
 }
 /*effetto di hover dei btn*/
 .btn:hover{
     background-color: #297afe;
 }
-.btn-white:hover{
+.btn.white:hover{
     background-color: #f5f5f5;
 }
 .underline.blue{
@@ -489,7 +487,7 @@ header li.underline:hover{
     margin-top: 10px;
 }
 
-.banner-cta .btn-white.cta{
+.banner-cta .btn.white.cta{
     display: inline;
     padding: 8px 50px;
 }
