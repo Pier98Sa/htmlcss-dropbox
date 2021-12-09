@@ -6,6 +6,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth; 
+ }
+ 
 .container{
     width: 80%;
     max-width: 1180px;
@@ -28,6 +32,7 @@
 .btn.white{
     background-color: #fff;
     color: #000;
+    display: inline;
 }
 /*effetto di hover dei btn*/
 .btn:hover{
@@ -107,7 +112,6 @@ header .logo{
 header li.underline:hover{
     border-bottom: solid 1px #000;
 }
-
 
 /*Jumbotron*/
 
@@ -322,13 +326,12 @@ header li.underline:hover{
 
 
 /*section strumenti*/
-.strumenti .underline{
-    text-decoration: underline;
-}
+
 .strumenti{
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
+/*regole delle card*/
 .riga .card{
     width: 33%;
     height: 100%;
@@ -336,9 +339,10 @@ header li.underline:hover{
     padding: 50px 20px;
 
 }
+
+/*contenuti della section strumenti*/
  .strumenti .riga.titolo{
-     padding: 0px 20px;
-     font-size: 1.8em;
+    font-size: 1.8em;
  }
 .riga .card img{
     width: 100%;
@@ -351,12 +355,18 @@ header li.underline:hover{
 .riga .card p{
     font-size: 1.1em;
 }
+
+.strumenti .underline{
+    text-decoration: underline;
+}
 /*section member*/
 
 .titolo-member{
     margin-top: 50px;
     margin-bottom:50px;
 }
+
+/*titolo della section member*/
 .titolo-member h2{
     font-size: 2.5em;
     width: 50%;
@@ -369,6 +379,8 @@ header li.underline:hover{
 .titolo-member a{
     color: #176fff;
 }
+
+/*regole di flottaggio delle colonne*/
 #member .col-sx{
     float: left;
     height: 30vw;
@@ -389,6 +401,7 @@ header li.underline:hover{
     background-color: #f5f5f5;
 }
 
+/*regole di flottaggio degli item*/
 #member .col-sx .item{
     float: left;
     height:15vw;
@@ -409,6 +422,7 @@ header li.underline:hover{
     position: relative;
 }
 
+/*contenuti delle colonne*/
 .image-member{
     position: absolute;
     top: 50%;
@@ -478,6 +492,8 @@ header li.underline:hover{
     background-color: #ffd830;
     border-color: #ffd830;
 }
+
+
 /*section cta*/
 
 .banner-cta{
@@ -485,15 +501,17 @@ header li.underline:hover{
     height: 350px; 
 }
 
+.banner.container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*regole di flottaggio della cta*/
 .banner-cta .text-cta{
     width: 70%;
     float: left;
     font-size: 2em;
     color:#61082b;
-}
-
-.banner-cta .text-cta h2{
-    width: 70%;
 }
 
 .banner-cta .btn-cta{
@@ -502,21 +520,26 @@ header li.underline:hover{
     margin-top: 10px;
 }
 
+/*contenuto della cta*/
+.banner-cta .text-cta h2{
+    width: 70%;
+}
+
+
+/*bottone della cta*/
 .banner-cta .btn.white.cta{
     display: inline;
     padding: 8px 50px;
 }
 
-.banner.container{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 /*section faq*/
 
 .faq{
     margin-top: 50px;
 }
 
+/*regole di flottaggio della faq*/
 .faq .question{
     width: 90%;
     float: left;
@@ -527,14 +550,13 @@ header li.underline:hover{
     float: right;
     text-align: right;
 }
+
+/*contenuto della faq*/
 .faq h2{
     font-size: 2em;
     margin-bottom: 50px;
 }
 
-.question-row .question p{
-    margin: 15px 0px;
-}
 /*footer*/
 
 footer{
@@ -542,12 +564,15 @@ footer{
     background-color: #000;
 }
 
+/*regola di flottaggio del footer*/
 footer .colonna-footer{
     width: 20%;
     float: left;
     color: #fff;
     margin-top: 50px;
 }
+
+/*regole delle colonne*/
 .colonna-footer h3{
     margin-bottom: 15px;
     font-size: 1.4em;
@@ -562,6 +587,7 @@ footer .colonna-footer{
     color: #fff;
 }
 
+/*contenuto del footer*/
 .footer-row p{
     color: #585858;
     padding: 30px 0px;
@@ -574,7 +600,7 @@ footer .fas.fa-sort-up{
     width: 10%;
     color: #fff;
 }
-
+/*effetto di hover del footer*/
 footer a:hover{
     text-decoration: underline;
 }
