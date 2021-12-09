@@ -401,6 +401,7 @@ nav ul ul li a:hover{
     height: 30vw;
     width: calc(100% - 60vw);
     overflow: auto;
+    background-color: #f5f5f5;
 }
 
 #member .col-sx .item{
@@ -430,13 +431,10 @@ nav ul ul li a:hover{
     transform: translate(-50%, -50%);
 }
 
-#member .item svg{
-   object-fit: cover;
-   width: 100%;
-   vertical-align: middle;   
-}
+
 
 #member .item img{
+    filter:invert();
     object-fit: cover;
     width: 100%;   
     vertical-align: middle;
