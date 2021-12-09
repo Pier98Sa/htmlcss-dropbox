@@ -17,6 +17,7 @@
     clear: both;    
 }
 
+/*regole dei bottoni*/
 .btn{
     background-color: #0061ff;
     padding: 8px 18px;
@@ -41,6 +42,7 @@
     text-decoration: underline;
 }
 
+/*regola delle linea per dividere i contenuti*/
 .linea{
     border-bottom: solid 1px;
     width: 100%;
@@ -99,12 +101,14 @@ header .logo{
     vertical-align: middle;
 }
 
-header li.underline:hover{
-    border-bottom: solid 1px #000;
-}
 .btn.inizia{
     display: inline;
 }
+/*effetto di hover del menù*/
+header li.underline:hover{
+    border-bottom: solid 1px #000;
+}
+
 /*header menù a tendina */
 
 nav ul ul {
@@ -134,16 +138,19 @@ nav ul ul li a:hover{
 }
 /*Jumbotron*/
 
-#jumbotron{
-    background-color: #b4d0e7;
-    height: 728px;
-}
+/*container che da la grandezza del contenuto del jumbotron*/
 .container-grande{
     margin: 0 auto;
     width: 95%;
     max-width: 1480px;
 }
 
+#jumbotron{
+    background-color: #b4d0e7;
+    height: 728px;
+}
+
+/*regole dei contenuti del jumbotron*/
 #jumbotron h1{
     margin-top: 80px;
     margin-bottom: 40px;
@@ -168,6 +175,11 @@ nav ul ul li a:hover{
     padding-top: 30px; 
 }
 
+.img-jumbotron img{
+    width: 100%;
+}
+/*regole di flottaggio del jumbotron*/
+
 #jumbotron .text-jumbotron{
     width: 35%;
     float: left;
@@ -179,9 +191,7 @@ nav ul ul li a:hover{
     display: inline-block;
     
 }
-.img-jumbotron img{
-    width: 100%;
-}
+
 /*Main*/
 
 /*Section "Piani Business"*/
@@ -283,6 +293,7 @@ nav ul ul li a:hover{
     margin-top: 30px;
 }
 
+/*regole di flottaggio della sezione orizzontale*/
 .text-cnt-orizzontale{
     float: left;
     margin-left: 30px;
@@ -291,6 +302,8 @@ nav ul ul li a:hover{
     float: right;
     margin-right: 30px;
 }
+
+/*contenuti della sezione orizzontale*/
 .btn.big{
     padding: 8px 60px;
 }
@@ -310,12 +323,10 @@ nav ul ul li a:hover{
     margin-top: 100px;
 }
 
+/*regole di flottaggio della sezione partner*/
 .partner .foto{
     width: 55%;
     float: left;
-}
-.foto img{
-    width: 100%;
 }
 
 .partner .text-partner{
@@ -323,6 +334,10 @@ nav ul ul li a:hover{
     float: right;
 }
 
+/*contenuto della sezione partner*/
+.foto img{
+    width: 100%;
+}
 .partner .text-partner h3{
     font-size: 1.8em;
     margin: 30px 0px;
@@ -336,6 +351,8 @@ nav ul ul li a:hover{
 .btn.white.partner{
     border: solid 1.5px #000;
 }
+
+
 /*section strumenti*/
 .strumenti .underline{
     text-decoration: underline;
