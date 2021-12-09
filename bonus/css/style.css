@@ -616,6 +616,7 @@ nav ul ul li a:hover{
 .faq .question{
     width: 90%;
     float: left;
+    margin: 10px 0px;
 }
 
 .faq .arrows{
