@@ -163,13 +163,16 @@ header li.underline:hover{
 
 /*header menù a tendina */
 
+nav ul .underline.dropdown{
+    position: relative;
+}
 nav ul ul {
 	display: none;
 	position: absolute; 
-	top: 80px; 
-    right: 395px;
     background-color: #fff;
     border: solid 1px #fff;
+    top: 79px;
+    left: -53px;
 }
 	
 
@@ -182,7 +185,6 @@ nav ul ul li {
 	width:250px;
 	float:none;
 	display:list-item;
-	position: relative;
     list-style: none;
 }
 nav ul ul li a:hover{
