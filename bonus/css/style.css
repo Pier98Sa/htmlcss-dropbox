@@ -197,11 +197,12 @@ nav ul ul li a:hover{
     margin: 0 auto;
     width: 95%;
     max-width: 1480px;
+    position: relative;
+    bottom: -80px;
 }
 
 #jumbotron{
     background-color: #b4d0e7;
-    height: 728px;
 }
 
 /*regole dei contenuti del jumbotron*/
